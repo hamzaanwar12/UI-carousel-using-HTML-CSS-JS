@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body{
+    background-color: cadetblue;
+    height: 91vh;
+    display:flex;
+    align-items:center;
+}
+
+.container{
+    width: 23%;
+    margin: auto;
+    height: 58vh;
+    box-shadow: 2px 2px 3px 4px rgba(0, 0, 0, 0.288);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.card{
+    height: 96vh;    
+    width: 100%;
+    transition: transform 1s linear ;
+    /* transform: translateX(-17.75rem); */
+    /* transform: translateX(17.5rem); */
+    /* transform: translateX(-53.15rem); */
+}
+.card,.buttons{
+    display: flex;
+}
+
+.card>div{   
+    width: 65rem;
+    height:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+button{
+    width: 50%;
+    height: 2.5rem;
+    background-color: #008CBA;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+}
+
+button:nth-child(1){
+    border-right: 1px solid white;
+}
+
+button:nth-child(2){
+    border-left: 1px solid white;
+}
+button:active{
+    font-size: 19px;
+    font-family: Haettenschweiler,  sans-serif;
+    background-color: #65c8e9;
+}
+
+img{
+    width: 100.5%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.car{
+    background: url("../day29/car.jpg");
+}
+.loneyCastle{
+    background: url("../day26/lonely\ castle.jpg");
+}
+.flower{
+    background: url("../day26/flower.jpg");
+}
+.eagle{
+    background: url("../day26/eagle.jpg");
+}
